@@ -115,8 +115,4 @@ $records = $result->fetch_all(MYSQLI_ASSOC);
 
 echo json_encode($records);
 
-
-
-
-
 ?>
