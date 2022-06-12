@@ -24,7 +24,7 @@
 
 <script type="text/javascript">
 
-    var domen = "http://localhost:8000";
+    var domen = var domen = document.location.protocol + '//' + document.location.host;
 
     //Build Tabulator
     var table = new Tabulator("#example-table", {
