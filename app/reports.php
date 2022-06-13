@@ -1,7 +1,7 @@
 <?php
 
 // Настройки
-// ini_set('display_errors', 'Off'); // Вывод ошибок
+ini_set('display_errors', 'Off');
 $db_server = 'host.docker.internal';
 $db_user = "robofinance";
 $db_password = "111Ghjcnjvjk222_!";
@@ -16,7 +16,6 @@ if (mysqli_connect_error()) {
 }
 mysqli_set_charset($mysqli , "utf8");
 
-// Валидация $_GET['r']
 if (isset($_GET['r'])) {
    $report = (int)$_GET['r'];
 } else {
