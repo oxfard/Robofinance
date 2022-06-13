@@ -1,8 +1,8 @@
 <?php
 
 // Настройки
-ini_set('display_errors', 'Off'); // Вывод ошибок
-$db_server = "oxfard.fvds.ru";
+// ini_set('display_errors', 'Off'); // Вывод ошибок
+$db_server = 'host.docker.internal';
 $db_user = "robofinance";
 $db_password = "111Ghjcnjvjk222_!";
 $db_name = "robofinance";
